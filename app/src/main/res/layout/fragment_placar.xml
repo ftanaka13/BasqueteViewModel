@@ -142,4 +142,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="4dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="16dp"
+        android:background="@color/design_default_color_error"
+        app:layout_constraintBottom_toTopOf="@id/buttonReset"
+        app:layout_constraintEnd_toEndOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
